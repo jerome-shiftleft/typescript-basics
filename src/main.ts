@@ -1,6 +1,13 @@
 console.log('main.ts loaded!');
 
 function add(n1: number, n2: number) {
+  console.log(`typeof number1: ${typeof n1}`);
+  console.log(`typeof number2: ${typeof n2}`);
+
+  if(typeof n1 !== 'number' || typeof n2 !== 'number') {
+    throw new Error('Input must be a number!');
+  }
+  
   return n1 + n2;
 }
 
