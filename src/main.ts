@@ -1,6 +1,6 @@
 console.log("main.ts loaded!");
 
-function add(n1: number, n2: number): number {
+function add(n1: number, n2: number, showResult: boolean) {
   console.log(`typeof number1: ${typeof n1}`);
   console.log(`typeof number2: ${typeof n2}`);
 
@@ -8,11 +8,15 @@ function add(n1: number, n2: number): number {
     throw new Error("Incorrect input!");
   }
 
-  return n1 + n2;
+  if (showResult) {
+    console.log(n1 + n2);
+  } else {
+    return n1 + n2;
+  }
 }
 
-let number1 = 5;
-let number2 = 2.8;
+const number1 = 5;
+const number2 = 2.8;
+const printResult = true;
 
-const result = add(number1, number2);
-console.log(`${number1} + ${number2} = ${result}`);
+add(number1, number2, printResult);
