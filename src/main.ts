@@ -1,6 +1,6 @@
 console.log('main.ts loaded!');
 
-function add(n1: number, n2: number) {
+function add(n1: number, n2: number): number {
   console.log(`typeof number1: ${typeof n1}`);
   console.log(`typeof number2: ${typeof n2}`);
 
@@ -16,4 +16,4 @@ let number2 = 2.8;
 
 
 const result = add(number1, number2);
-console.log(`number1 + number2 = ${result}`);
+console.log(`${number1} + ${number2} = ${result}`);
