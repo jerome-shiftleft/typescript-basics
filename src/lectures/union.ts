@@ -1,18 +1,9 @@
 export default function union() {
-  function add(n1: number, n2: number, showResult: boolean, phrase: string) {
-    console.log(`typeof number1: ${typeof n1}`);
-    console.log(`typeof number2: ${typeof n2}`);
-
-    if (typeof n1 !== "number" || typeof n2 !== "number") {
-      throw new Error("Incorrect input!");
-    }
-
-    if (showResult) {
-      console.log(`${phrase}: ${n1 + n2}`);
-    } else {
-      return n1 + n2;
-    }
+  function combine(n1: number, n2: number) { 
+    const result = n1 + n2;
+    return result;
   } // end of function add()
 
-  add(1, 2, true, "result");
+  const result = combine(1, 2);
+  console.log(`result: ${result}`);
 } // end of export default function union()
