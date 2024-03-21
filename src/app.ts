@@ -4,6 +4,7 @@
 //import './lectures/tuples';
 //import './lectures/enums';
 //import './lectures/any';
-import union from './lectures/union';
+//import union from './lectures/union';
+import literal from './lectures/literal';
 
-union();
+literal();
