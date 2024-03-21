@@ -4,6 +4,14 @@ const person: { name: string; age: number; hobbies: Array<string> } = {
   hobbies: ["sex", "programming"],
 };
 
+// for (const hobby of person.hobbies) {
+//   console.log(hobby);
+// }
+
+person.hobbies.map(hobby => {
+  console.log(hobby);
+})
+
 //let favoriteActivities: any[];
 // let favoriteActivities: Array<any>;
 // favoriteActivities = [
