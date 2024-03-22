@@ -1,7 +1,9 @@
 export default function customTypes() {
+  type Combinable = number | string;
+
   function combine(
-    input1: number | string,
-    input2: number | string,
+    input1: Combinable,
+    input2: Combinable,
     resultType: "number" | "string"
   ) {
     let result;
