@@ -10,6 +10,6 @@
 //import functionReturnType from "./lectures/functionReturnType";
 //import functionAsTypes from "./lectures/functionAsTypes";
 //import callbacks from "./lectures/callbacks";
-import unknownType from "./lectures/unknownType";
+import neverType from "./lectures/neverType";
 
-unknownType();
+neverType();
