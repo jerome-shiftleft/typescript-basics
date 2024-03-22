@@ -1,5 +1,10 @@
 export default function functionReturnType() {
 
+  // function printResult(result: number): undefined {
+  //   console.log(`result: ${result}`);
+  //   return;
+  // }
+  
   function printResult(result: number): void {
     console.log(`result: ${result}`);
   }
