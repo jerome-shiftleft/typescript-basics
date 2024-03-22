@@ -6,6 +6,7 @@
 //import './lectures/any';
 //import union from './lectures/union';
 //import literal from './lectures/literal';
-import customTypes from "./lectures/customTypes";
+//import customTypes from "./lectures/customTypes";
+import functionReturnType from "./lectures/functionReturnType";
 
-customTypes();
+functionReturnType();
