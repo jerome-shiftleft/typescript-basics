@@ -5,6 +5,7 @@
 //import './lectures/enums';
 //import './lectures/any';
 //import union from './lectures/union';
-import literal from './lectures/literal';
+//import literal from './lectures/literal';
+import customTypes from "./lectures/customTypes";
 
-literal();
+customTypes();
